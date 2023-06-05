@@ -10,7 +10,7 @@ Python Testing Automation
 
 
 ## QA.Guru
-https://qa.guru/
+[https://qa.guru/](https://qa.guru/python)
 
 ##
 <p align="center">
