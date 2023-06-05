@@ -2,11 +2,10 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-Python Testing Automation
+Test automation school
 
-## Разрабатываем первый автотест: Python / Pytest / Selene
-Изучаем готовый проект с инфраструктурой: Github / Jenkins / Allure Report / Allure TestOps / Selenoid / Телеграм-бот
-- [Trial session]()
+## Форма авторизации
+- [Trial session: Python / Pytest / Selene]()
 
 
 ## QA.Guru
