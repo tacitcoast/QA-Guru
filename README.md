@@ -5,7 +5,7 @@
 Test automation school
 
 ## Day 1: First autotests
-- [Authorization form: Python / Pytest / Selene]()
+- [Authorization form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Authorization_form_trial_session)
 - [Google search form: Python / Pytest / Selene]()
 
 
