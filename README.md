@@ -1,11 +1,12 @@
-# 🐼 My Projects in QA.Guru Python training
+# 🐼 My autotests of projects in QA.Guru Python training
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 Test automation school
 
-## Форма авторизации
-- [Trial session: Python / Pytest / Selene]()
+## Day 1: First autotests
+- [Authorization form: Python / Pytest / Selene]()
+- [Google search form: Python / Pytest / Selene]()
 
 
 ## QA.Guru
