@@ -9,7 +9,7 @@ Test automation school
 - [Google search form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Google_search_form_trial_session)
 
 ## Day 1: Autotest Google search
-- [Google search: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/blob/a37ccac738cde7b326efc017ef2ef5293f32bcb8/Autotest-Google-search_day_1)
+- [Google search: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest-Google-search_day_1)
 
 
 ## QA.Guru
