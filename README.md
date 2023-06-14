@@ -8,8 +8,14 @@ Test automation school
 - [Authorization form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Authorization_form_trial_session)
 - [Google search form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Google_search_form_trial_session)
 
-## Day 1: Autotest Google search
+## Day 2: Autotest Google search
 - [Google search: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest-Google-search_day_1)
+
+## Day 3: Git
+- [Dealing with conflicts](https://github.com/tacitcoast/qa_guru_python_git_hm)
+
+## Day 4: Python basics. Part I
+- [Python Tasks]()
 
 
 ## QA.Guru
