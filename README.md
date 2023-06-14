@@ -15,7 +15,7 @@ Test automation school
 - [Dealing with conflicts](https://github.com/tacitcoast/qa_guru_python_git_hm)
 
 ## Day 4: Python basics. Part I
-- [Python Tasks]()
+- [Python Tasks](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_1)
 
 
 ## QA.Guru
