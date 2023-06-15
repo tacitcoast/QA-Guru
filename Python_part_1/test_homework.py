@@ -8,6 +8,8 @@ def test_greeting():
 
     output = f"Привет, {name}! Тебе {age} лет."
     output_2 = "Привет, {}! Тебе {} лет.".format(name, age)
+    
+    print(output)
 
     assert output == "Привет, Анна! Тебе 25 лет."
     assert output_2 == "Привет, Анна! Тебе 25 лет."
@@ -59,6 +61,8 @@ def test_dicts():
     second = [1, 2, 3, 4, 5]
 
     d = dict(zip(first, second))
+    
+    print(d.values())
 
     assert isinstance(d, dict)
     assert len(d) == 5
