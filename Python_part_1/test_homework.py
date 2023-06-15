@@ -62,7 +62,8 @@ def test_dicts():
 
     d = dict(zip(first, second))
     
-    print(d.values())
+    print(d.values()) #первый вариант вывода значений
+    print(list(d.values())) #второй вариант вывода значений
 
     assert isinstance(d, dict)
     assert len(d) == 5
