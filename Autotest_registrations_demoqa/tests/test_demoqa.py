@@ -28,6 +28,7 @@ def test_registration_demoqa():
     # Fill Subjects, Hobbies
     browser.element('#subjectsInput').type('ma')
     browser.all("#subjectsWrapper div").element_by(have.exact_text("Maths")).click()
+    browser.element('#hobbies-checkbox-1').with_(click_by_js=True).click()
 
     # Uploading a picture
     browser.element('#uploadPicture').send_keys(os.path.abspath('file/kotik.jpeg'))
