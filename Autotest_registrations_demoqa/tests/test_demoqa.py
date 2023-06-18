@@ -7,6 +7,9 @@ def test_registration_demoqa():
     browser.execute_script('document.querySelector("#fixedban").remove()')
     browser.element('footer').execute_script('element.remove()')
 
+    # We check that we have opened the registration form
+    browser.all("h5").element_by(have.exact_text("Student Registration Form"))
+
     # Fill in Name, Email, Gender, Mobile
     browser.element('#firstName').should(be.blank).type('Anna')
     browser.element('#lastName').should(be.blank).type('Malinovskaia')
