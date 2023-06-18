@@ -14,7 +14,7 @@ def test_registration_demoqa():
     browser.element('#firstName').should(be.blank).type('Anna')
     browser.element('#lastName').should(be.blank).type('Malinovskaia')
     browser.element('#userEmail').should(be.blank).type('test@demoqa.com')
-    browser.element('#gender-radio-3').with_(click_by_js=True).click()
+    browser.all('#genterWrapper label').element_by(have.exact_text('Other')).click()
     browser.element('#userNumber').should(be.blank).type('1234567890')
 
     # Choosing the date of birth
@@ -28,7 +28,7 @@ def test_registration_demoqa():
     # Fill Subjects, Hobbies
     browser.element('#subjectsInput').type('ma')
     browser.all("#subjectsWrapper div").element_by(have.exact_text("Maths")).click()
-    browser.element('#hobbies-checkbox-1').with_(click_by_js=True).click()
+    browser.all('#hobbiesWrapper label').element_by(have.exact_text('Reading')).click()
 
     # Uploading a picture
     browser.element('#uploadPicture').send_keys(os.path.abspath('file/kotik.jpeg'))
