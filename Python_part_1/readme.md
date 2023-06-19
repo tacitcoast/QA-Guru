@@ -7,7 +7,7 @@
 
 - [Теория](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_1/theory)
 
-# Задание
+## Задание
 
 1. Напишите программу, которая выводит на экран приветствие.
 2. Напишите программу, которая берет длину и ширину прямоугольника и считает его периметр и площадь.
@@ -18,6 +18,5 @@
 
 - [Ссылка на задание](https://github.com/qa-guru/qa_guru_python_6_4/blob/main/test_homework.py)
 
-
-# Решение
+## Решение
 [Python file](https://github.com/tacitcoast/QA-Guru/blob/main/Python_part_1/test_homework.py)
