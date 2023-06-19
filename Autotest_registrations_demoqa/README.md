@@ -4,7 +4,7 @@
 2. Базовые возможности Selene и CSS / Xpath-селекторы
 4. Продолжаем изучать библиотеку Selene (справочник-шпаргалка)
 
-# Задание
+## Задание
 
 1. В новом проекте, соответствующему базовому формату «проекта для автотестов», разработай автотест на заполнение и отправку формы https://demoqa.com/automation-practice-form
 2. Запушь код в github-репозиторий и дай на него ссылку в качестве ответа на домашнее задание.
@@ -18,5 +18,5 @@
    - дополнительные python модули кроме модуля с тестом
    - кроме опционального conftest.py
 
-# Решение
+## Решение
 [Autotest registrations demoqa](https://github.com/tacitcoast/QA-Guru/blob/main/Autotest_registrations_demoqa/tests/test_demoqa.py)
