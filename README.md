@@ -4,11 +4,11 @@
 
 Test automation school
 
-## Trial lesson: First autotests
+## Day 1: First autotests
 - [Authorization form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Authorization_form_trial_session)
 - [Google search form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Google_search_form_trial_session)
 
-## Day 2: Autotest Google search
+## Day 2: Autotest Google search form
 - [Google search: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest-Google-search_day_1)
 
 ## Day 3: Git
@@ -16,6 +16,9 @@ Test automation school
 
 ## Day 4: Python basics. Part I
 - [Python Tasks](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_1)
+
+## Day 5: Selene #1
+- [Autotest of the demoqa registration form: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest_registrations_demoqa)
 
 
 ## QA.Guru
