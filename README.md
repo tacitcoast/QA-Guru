@@ -21,7 +21,7 @@ Test automation school
 - [Autotest of the demoqa registration form: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest_registrations_demoqa)
 
 ---
-## QA.Guru
+### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
 
 ##
