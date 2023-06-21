@@ -3,19 +3,14 @@ from datetime import time
 
 # Тестирование переключения темной темы на сайте в зависимости от времени
 def test_dark_theme_by_time():
-
     current_time = time(hour=23)
-    is_dark_theme = None
-
-    if 6 < current_time.hour >= 22:
-        is_dark_theme = True
+    is_dark_theme = 6 < current_time.hour >= 22
 
     assert is_dark_theme is True
 
 
 # Тестирование переключения темной темы на сайте в зависимости от времени и выбора пользователя
 def test_dark_theme_by_time_and_user_choice():
-
     current_time = time(hour=16)
     dark_theme_enabled_by_user = True
     is_dark_theme = None
@@ -30,7 +25,6 @@ def test_dark_theme_by_time_and_user_choice():
 
 
 def test_find_suitable_user():
-
     users = [
         {"name": "Oleg", "age": 32},
         {"name": "Sergey", "age": 24},
@@ -64,15 +58,9 @@ def test_find_suitable_user():
 
 # Функция, которая будет печатать читаемое имя переданной ей функции и значений аргументов.
 def print_func_names(func, *args):
-    func_name = func.__name__
-    arguments = list(args)
-
-    words = func_name.replace("_", " ").split()  # open_browser -> ["open", "browser"]
-    capitalized_words = [word.capitalize() for word in words]  # ["open", "browser"] -> ["Open", "Browser"]
-    result = ' '.join(capitalized_words)  # "Open Browser"
-
-    args_result = ', '.join(arguments)  # ["https://companyname.com/login", "Register"] -> "https://companyname.com/login, Register"
-    result = f"{result} [{args_result}]"
+    func_name = func.__name__.replace("_", " ").title() # open_browser => "open browser" => "Open Browser"
+    args_result = ", ".join([*args]) # ["https://companyname.com/login", "Register"] => "https://companyname.com/login, Register"
+    result = f"{func_name} [{args_result}]"
 
     print(result)
     return result
