@@ -21,7 +21,7 @@ Test automation school
 - [Autotest of the demoqa registration form: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest_registrations_demoqa)
 
 ## Day 6: Python basics. Part II
-- [Python Tasks]()
+- [Python Tasks](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_2)
 
 ---
 ### QA.Guru
