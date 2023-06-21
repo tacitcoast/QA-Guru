@@ -1,5 +1,6 @@
 from datetime import time
 
+
 # Тестирование переключения темной темы на сайте в зависимости от времени
 def test_dark_theme_by_time():
 
@@ -10,6 +11,7 @@ def test_dark_theme_by_time():
         is_dark_theme = True
 
     assert is_dark_theme is True
+
 
 # Тестирование переключения темной темы на сайте в зависимости от времени и выбора пользователя
 def test_dark_theme_by_time_and_user_choice():
@@ -58,6 +60,7 @@ def test_find_suitable_user():
         {"name": "Stanislav", "age": 15},
         {"name": "Maria", "age": 18},
     ]
+
 
 # Функция, которая будет печатать читаемое имя переданной ей функции и значений аргументов.
 def print_func_names(func, *args):
