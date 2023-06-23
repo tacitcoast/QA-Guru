@@ -20,6 +20,4 @@ def test_read_archive():
     path_tmp = os.path.dirname(os.path.abspath(__file__)) + '/../tmp'
     with ZipFile(path_tmp + '/test.zip') as zf:
         filenames = [os.path.basename(file) for file in zf.namelist()]
-        print(filenames)
-        print(os.listdir(path_res))
         assert filenames == os.listdir(path_res)
