@@ -6,12 +6,13 @@ from selene import browser
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
+from .conftest import path_tmp
 
-# TODO добавить ассерты
+
 def test_download_file():
     options = webdriver.ChromeOptions()
     prefs = {
-        "download.default_directory": os.path.dirname(os.path.abspath(__file__)) + '/../tmp',
+        "download.default_directory": path_tmp,
         "download.prompt_for_download": False
     }
     options.add_experimental_option("prefs", prefs)
@@ -24,3 +25,5 @@ def test_download_file():
     browser.element(".d-none .Button-label").click()
     browser.element('[data-open-app="link"]').click()
     time.sleep(5)
+
+    assert os.path.exists(os.path.join(path_tmp, 'pytest-main.zip'))
