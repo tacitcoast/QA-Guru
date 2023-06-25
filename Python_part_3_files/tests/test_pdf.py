@@ -1,9 +1,10 @@
 import os
 from pypdf import PdfReader
+from .conftest import path_res
 
 
 def test_pdf():
-    reader = PdfReader(os.path.abspath('../resources/docs-pytest-org-en-latest.pdf'))
+    reader = PdfReader(os.path.join(path_res, 'docs-pytest-org-en-latest.pdf'))
     number_of_pages = len(reader.pages)
     page = reader.pages[0]
     text = page.extract_text()
