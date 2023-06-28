@@ -49,18 +49,23 @@ def test_registration_demoqa():
     browser.element('#example-modal-sizes-title-lg').should(have.text('Thanks for submitting the form'))
 
     # We check that our text is filled in
-    browser.element('.modal-body').should(have.text('Anna Malinovskaia'))
-    browser.element('.modal-body').should(have.text('test@demoqa.com'))
-    browser.element('.modal-body').should(have.text('Other'))
-    browser.element('.modal-body').should(have.text('1234567890'))
-    browser.element('.modal-body').should(have.text('11 January,1989'))
-    browser.element('.modal-body').should(have.text('Maths'))
-    browser.element('.modal-body').should(have.text('kotik.jpeg'))
-    browser.element('.modal-body').should(have.text('Test test test'))
-    browser.element('.modal-body').should(have.text('NCR Delhi'))
-
+    browser.element('.table').all('td').even.should(
+        have.texts(
+            'Anna Malinovskaia',
+            'test@demoqa.com',
+            'Other',
+            '1234567890',
+            '11 January,1989',
+            'Maths',
+            'Reading',
+            'kotik.jpeg',
+            'Test test test',
+            'NCR Delhi'
+        )
+    )
+    
     # Closing the window
     browser.element('#closeLargeModal').click()
-
+    
     # We check that the form is empty
     browser.element('#firstName').should(be.blank)
