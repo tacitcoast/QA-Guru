@@ -26,7 +26,7 @@ Test automation school
 ## Day 7: Python: работа с файлами
 - [Python Tasks](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_3_files)
 
-## Day 8: Python basics. Part II. Применение ООП
+## Day 8: Python basics. Part III. Применение ООП
 - [Python Tasks]()
 
 ---
