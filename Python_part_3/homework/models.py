@@ -8,7 +8,6 @@ class Product:
     description: str
     quantity: int
 
-
     def check_quantity(self, quantity) -> bool:
         if self.quantity >= quantity:
             return True
@@ -36,7 +35,6 @@ class Cart:
             self.products[product] += buy_count
         else:
             self.products[product] = buy_count
-
 
     def remove_product(self, product: Product, remove_count=None):
         if product not in self.products:
