@@ -30,7 +30,7 @@ Test automation school
 - [Implementation and testing of online store classes](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_3)
 
 ## Day 9: Allure Reports + GitHub Actions
-- [Repository](https://github.com/tacitcoast/qaguru_python_hm_9)
+- [Autotest for GitHub](https://github.com/tacitcoast/qaguru_python_hm_9)
 
 ---
 ### QA.Guru
