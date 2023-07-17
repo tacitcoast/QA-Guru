@@ -32,6 +32,9 @@ Test automation school
 ## Day 9: Allure Reports + GitHub Actions
 - [Autotest for GitHub](https://github.com/tacitcoast/qaguru_python_hm_9)
 
+## Day 10: PageObjects
+- [Autotests for demoqa registration form with PageObjects](https://github.com/tacitcoast/demoqa-registrations-tests)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
