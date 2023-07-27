@@ -35,6 +35,9 @@ Test automation school
 ## Day 10: PageObjects
 - [Autotests for demoqa registration form with PageObjects](https://github.com/tacitcoast/demoqa-registrations-tests)
 
+- ## Day 11: Jenkins
+- [Running tests from Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
