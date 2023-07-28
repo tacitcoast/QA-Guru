@@ -35,8 +35,11 @@ Test automation school
 ## Day 10: PageObjects
 - [Autotests for demoqa registration form with PageObjects](https://github.com/tacitcoast/demoqa-registrations-tests)
 
-- ## Day 11: Jenkins
-- [Running tests from Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests)
+## Day 11: Jenkins + Allure
+- [Running tests from Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests/tree/high-level-step-objects)
+
+## Day 12: Notification in telegram
+- [Telegram bot + Jenkins + Allure](https://github.com/tacitcoast/demoqa-registrations-tests/tree/notifications)
 
 ---
 ### QA.Guru
