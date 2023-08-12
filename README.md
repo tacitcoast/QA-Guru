@@ -9,18 +9,18 @@ Test automation school
 - [Google search form: Python / Pytest / Selene](https://github.com/tacitcoast/QA.Guru/tree/main/Google_search_form_trial_session)
 
 ## Day 2: Autotest Google search form
-- [Google search: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest-Google-search_day_1)
+- [Autotest for Google search form: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest-Google-search_day_1)
 
 ## Day 3: Git
 - [Dealing with conflicts](https://github.com/tacitcoast/qa_guru_python_git_hm)
 
-## Day 4: Python basics. Part I
+## Day 4: Python basics. Part I. Типы данных
 - [Solving simple tasks](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_1)
 
 ## Day 5: Selene #1
 - [Autotest of the demoqa registration form: Python / Pytest / Selene](https://github.com/tacitcoast/QA-Guru/tree/main/Autotest_registrations_demoqa)
 
-## Day 6: Python basics. Part II
+## Day 6: Python basics. Part II. Языковые конструкции и функции
 - [Functions, arguments: testing dark theme switching](https://github.com/tacitcoast/QA-Guru/tree/main/Python_part_2)
 
 ## Day 7: Python: работа с файлами
@@ -41,8 +41,8 @@ Test automation school
 ## Day 13: Notification in telegram
 - [Telegram bot + Jenkins + Allure](https://github.com/tacitcoast/demoqa-registrations-tests/tree/notifications)
 
-## Day 15: Pytest. Part I
-- [Autotest for GitHub with Python Parameters]()
+## Day 15: Pytest. Part I. Аргументы запуска и параметризация
+- [Autotest for GitHub with Python Parameters](https://github.com/tacitcoast/python_parameters)
 
 ---
 ### QA.Guru
