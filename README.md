@@ -45,7 +45,7 @@ Test automation school
 - [Autotest for GitHub with Python Parameters](https://github.com/tacitcoast/python_parameters)
 
 ## Day 16: Управляем параметрами в коде и в Jenkins
-- [Running tests from Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests/tree/high-level-step-objects)
+- [Autotests for registration form for Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests/tree/jenkins-parameters)
 
 ---
 ### QA.Guru
