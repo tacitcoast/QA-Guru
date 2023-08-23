@@ -47,6 +47,9 @@ Test automation school
 ## Day 16: Управляем параметрами в коде и в Jenkins
 - [Autotests for registration form for Jenkins](https://github.com/tacitcoast/demoqa-registrations-tests/tree/jenkins-parameters)
 
+## Day 19: Venv, Poetry и управление зависимостями проекта
+- [Poetry](https://github.com/tacitcoast/qa-guru-python-poetry)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
