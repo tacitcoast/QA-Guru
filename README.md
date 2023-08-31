@@ -50,6 +50,9 @@ Test automation school
 ## Day 19: Venv, Poetry и управление зависимостями проекта
 - [Poetry](https://github.com/tacitcoast/qa-guru-python-poetry)
 
+## Day 20: REST API. Part I
+- [API autotests for https://reqres.in/](https://github.com/tacitcoast/qa-guru-rest-api-part-1)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
