@@ -53,6 +53,9 @@ Test automation school
 ## Day 20: REST API. Part I
 - [API autotests for https://reqres.in/](https://github.com/tacitcoast/qa-guru-rest-api-part-1)
 
+## Day 21: REST API. Part II
+- [API autotests for reqres.in and catfact.ninja](https://github.com/tacitcoast/qa-guru-rest-api-part-2)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
