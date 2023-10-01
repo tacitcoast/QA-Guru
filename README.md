@@ -56,6 +56,9 @@ Test automation school
 ## Day 21: REST API. Part II
 - [API autotests for reqres.in and catfact.ninja](https://github.com/tacitcoast/qa-guru-rest-api-part-2)
 
+## Day 23: Мобильная автоматизация Part I. Разрабатываем автотесты с Browserstack
+- [Mobile autotests: Android / IOS](https://github.com/tacitcoast/qa-guru-mobile-autotest-part-1)
+
 ---
 ### QA.Guru
 [https://qa.guru/](https://qa.guru/python)
